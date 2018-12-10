@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 const Header = (props) => (
     <header className="top">
     <h1>Catch 
@@ -14,7 +14,6 @@ const Header = (props) => (
     </h3>
     </header>
 );
-
 
 // class Header extends React.Component {
 //   render() {
